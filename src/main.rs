@@ -1,3 +1,4 @@
 fn main() {
-    println!("Hello, rusty world!");
+    let x: u32 = 4;
+    println!("My secret key is {}", x);
 }
