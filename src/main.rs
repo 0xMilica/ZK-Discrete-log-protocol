@@ -1,3 +1,5 @@
+use std::io;
+
 fn main() {
     const PRIME_P: u32 = 31;
 
@@ -8,4 +10,6 @@ fn main() {
 
     let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
     println!("Prime arr is {}", arr[2]);
+
+    let mut input = String::new();
 }
