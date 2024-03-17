@@ -13,5 +13,6 @@ fn main() {
 
     let mut input = String::new();
 
-    io::stdin().read_line(&mut input).expect("Error reading); //this is similar to try/catch or Throws (type of error) in Java
+    io::stdin().read_line(&mut input).expect("Error reading"); //this is similar to try/catch or Throws (type of error) in Java
+    println!("This is my input {}", input);
 }
