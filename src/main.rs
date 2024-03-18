@@ -26,6 +26,12 @@ fn main() {
     else { println!("Danas je dijeta, nista od slatkog :D"); }
 
     add_numbers(6, 5);
+
+    let number = {
+        let x = 3;
+        x+1
+    };
+    println!("Number is {}", number);
 }
 
 fn add_numbers(x: i32, y: i32) {
