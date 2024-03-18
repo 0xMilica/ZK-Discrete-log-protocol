@@ -25,9 +25,9 @@ fn main() {
     }
     else { println!("Danas je dijeta, nista od slatkog :D"); }
 
-    test();
+    add_numbers(6, 5);
 }
 
-fn test(){
-    println!("Test function called...");
+fn add_numbers(x: i32, y: i32) {
+    println!("The sum is {}", x+y);
 }
