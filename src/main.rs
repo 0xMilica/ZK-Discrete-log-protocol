@@ -8,28 +8,11 @@ fn main() {
     let tup : (i32, char) = (1, '1');
     println!("Prime tup is {}", tup.0);
 
-    let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-    println!("Prime arr is {}", arr[2]);
-
-    let cond = (2 as f32) < 3.5;
-
-    let cond2 = !(cond && false || cond);
-
-    println!("Condition is {}", cond2);
-
-    let day = "Friday";
-    let food = "Najlepse zelje";
-
-    if day == "Friday" {
-        println!("Food is {}", food);
-    }
-    else { println!("Danas je dijeta, nista od slatkog :D"); }
-
     add_numbers(6, 5);
 
     let number = {
-        let x = 3;
-        x+1
+        let x = 3; //this is the statement
+        x+1 //this turns number into expression
     };
     println!("Number is {}", number);
 }
