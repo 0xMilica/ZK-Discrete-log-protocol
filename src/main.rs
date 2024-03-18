@@ -23,5 +23,11 @@ fn main() {
     if day == "Friday" {
         println!("Food is {}", food);
     }
-    else { println!("Danas je dijeta, nista od slatkog"); }
+    else { println!("Danas je dijeta, nista od slatkog :D"); }
+
+    test();
+}
+
+fn test(){
+    println!("Test function called...");
 }
