@@ -11,8 +11,9 @@ fn main() {
     let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
     println!("Prime arr is {}", arr[2]);
 
-    let mut input = String::new();
+    let cond = (2 as f32) < 3.5;
 
-    io::stdin().read_line(&mut input).expect("Error reading"); //this is similar to try/catch or Throws (type of error) in Java
-    println!("This is my input {}", input);
+    let cond2 = cond && true;
+
+    println!("Condition is {}", cond2);
 }
