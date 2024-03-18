@@ -13,7 +13,7 @@ fn main() {
 
     let cond = (2 as f32) < 3.5;
 
-    let cond2 = cond && true;
+    let cond2 = !(cond && false);
 
     println!("Condition is {}", cond2);
 }
