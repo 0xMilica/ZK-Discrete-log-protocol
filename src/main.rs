@@ -13,7 +13,15 @@ fn main() {
 
     let cond = (2 as f32) < 3.5;
 
-    let cond2 = !(cond && false);
+    let cond2 = !(cond && false || cond);
 
     println!("Condition is {}", cond2);
+
+    let day = "Friday";
+    let food = "Najlepse zelje";
+
+    if day == "Friday" {
+        println!("Food is {}", food);
+    }
+    else { println!("Danas je dijeta, nista od slatkog"); }
 }
