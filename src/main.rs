@@ -14,9 +14,9 @@ fn main() {
         let x = 3; //this is the statement
         x+1 //this turns number into expression
     };
-    println!("Number is {}", number);
+    println!("Number is {}", add_numbers(5, 6));
 }
 
-fn add_numbers(x: i32, y: i32) {
-    println!("The sum is {}", x+y);
+fn add_numbers(x: i32, y: i32) -> i64 {
+    return (x + y) as i64;
 }
