@@ -17,3 +17,11 @@ fn main() {
 fn add_numbers(x: i32, y: i32) -> i64 {
     return (x + y) as i64;
 }
+
+//fn for key generation
+
+//fn for generating subgroups
+
+//fn for applying CRT
+
+//fn for comparing decrypted messages
