@@ -5,9 +5,6 @@ fn main() {
 
     println!("Prime p is {}", PRIME_P);
 
-    let tup : (i32, char) = (1, '1');
-    println!("Prime tup is {}", tup.0);
-
     add_numbers(6, 5);
 
     let number = {
